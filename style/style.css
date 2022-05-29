@@ -1,0 +1,228 @@
+
+.col-md-12{
+    height: 80px;
+    margin-bottom: 10px;
+    position: relative;
+    border-radius: 5px;
+    background-image: linear-gradient(rgb(24, 148, 142), rgb(24, 148, 142), white);
+}
+i{
+    font-size: 30px;
+    position: absolute;
+    right: 40px;
+    top:25px;
+    color: black;
+}
+.container{
+    border-radius: 5px;
+}
+.container .h5{
+    display: block;
+    position: absolute; 
+    top: 20px;
+    left: 20%; 
+    font-family: 'Akshar', sans-serif;
+    font-family: 'Tapestry', cursive;
+    font-size: 200%;
+    color:black;
+    text-shadow: 1px 1px 2px black, 0 0 25px violet, 0 0 5px rgb(25, 117, 147);
+}
+.container:hover .h5{
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+.container:hover .col-md-12{
+    background-image: linear-gradient(white, aqua);
+    transition: 0.5s;
+}
+
+span{
+    text-decoration: line-through;
+    font-size: 14px;
+}
+.logo{
+    height: 80px;
+}
+.noibac{
+   padding: 10px 0;
+}
+p{
+    font-size: 1.5em;    
+    font-weight: bold;
+}
+.container h1{
+    font-size:30px;
+    text-align: left;
+    padding: 20px 0;
+}
+.col-md-3{
+    height: auto;
+    padding-bottom: 10px;
+}
+.asus{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+.hp{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+.msi{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+.lenovo{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+.km1{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+.km2{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+.km3{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+.km4{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+.container{
+    padding: 10px 0;
+    background-color:azure;
+}
+img{
+    padding: 10px;
+}
+.container .row  :hover img{
+    opacity: 0.7;
+}
+
+.carousel-inner :hover img{
+    opacity: 0.7;
+}
+
+
+.col-md-2 a{
+    text-decoration: none;
+    color: black;
+    font-size: 22px;
+    font-family: 'Calibri';
+}
+.container h3{
+    font-size: 25px;
+    font-weight: bold;
+}
+.footer{
+    background-color:aliceblue;
+    border-radius: 5px;
+}
+.footer-text2 a{
+    text-decoration: none;
+    color: black;
+    font-weight: normal;
+}
+.footer-text1{
+    padding: 20px 10px;
+}
+.footer-text2{
+    padding: 20px 10px;
+}
+.footer-text3{
+    padding: 20px 10px;
+}
+.container h4{
+    font-size: 18px;
+}
+
+
+.right{
+    width: 100px;
+    height: auto;
+    position: fixed;
+    top: 300px;
+    right: 10px;
+}
+.right .face{
+    width: 60px;
+    height: 60px;
+    padding: 10px 10px;
+}
+.right a:hover .face{
+    opacity: 0.6;
+}
+.right .email{
+    width: 60px;
+    height: 60px;
+    padding: 10px 10px;
+}
+.right a:hover .email{
+    opacity: 0.6;
+}
+.right .phone{
+    width: 60px;
+    height: 60px;
+    padding: 10px 10px;
+}
+.right a:hover .phone{
+    opacity: 0.6;
+}
+.right .mess{
+    width: 60px;
+    height: 60px;
+    padding: 10px 10px;
+}
+.right a:hover .mess{
+    opacity: 0.6;
+}
+[class*="carousel-item"] img{
+    height: 500px;
+}
+
+/* ******************************************************** */
+
+/* ********************************************************** */
+@media screen and(max-width:768px){
+    .container{
+        width: auto;
+    }
+    .container .card{
+        padding: 10px 10px;
+    }
+
+    .right{
+        display: none;
+    }
+    
+    .container .h5{
+        display: none;
+    }
+    
+}
+@media screen and (max-width:576px) {
+    .right {
+       display: none;
+    }
+    .col-md-2 a{
+        font-size: 16px;
+    }
+    .container .h5{
+        display: none;
+    }
+    [class*="carousel-item"] img{
+        height: 180px;
+    }
+}
+

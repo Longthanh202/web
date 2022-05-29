@@ -1,0 +1,17 @@
+ .container{
+           
+            padding: 20px;
+           
+        }
+        .DT-H1{
+            text-align: center;
+            color: blue;
+        }
+        .face a{
+            float: right;
+            padding-top: 100px;
+            margin: 20px;
+        }
+        h2{
+            text-align: center;
+        }

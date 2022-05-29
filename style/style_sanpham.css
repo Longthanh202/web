@@ -1,0 +1,98 @@
+.container p{
+    color: blue;
+    font-size: 25px;
+    font-weight: bold;
+}
+.container a{
+    margin-right: 20px;
+    margin-top: 40px;
+}
+.container p span{
+    color: black;
+    font-size: 14px;
+    text-decoration: line-through;
+    font-weight: normal;
+}
+
+
+.container h1{
+    font-size: 26px;
+    padding-left: 10px;
+}
+.container .h6{
+    font-size: 1.3em;
+    font-weight: normal;
+    padding-left: 10px;
+    text-align: left;
+}
+.container h3{
+    font-size: 22px;
+    padding-left: 10px;
+}
+.container table .tr{
+    background-color: rgb(228, 218, 218);
+    border-radius: 5px;
+}
+.container table tr .td{
+    padding-left: 20px;
+}
+
+.container table tr td{
+    padding-left: 10px;
+}
+.container table tr{
+    height: 50px;
+}
+.container .row .col-md-7{
+    border-radius: 10px;
+    background-color:aliceblue;
+}
+
+.right{
+    width: 100px;
+    height: auto;
+    position: fixed;
+    top: 300px;
+    right: 10px;
+}
+.right .face{
+    width: 60px;
+    height: 60px;
+    padding: 10px 10px;
+}
+.right a:hover .face{
+    opacity: 0.6;
+}
+.right .email{
+    width: 60px;
+    height: 60px;
+    padding: 10px 10px;
+}
+.right a:hover .email{
+    opacity: 0.6;
+}
+.right .phone{
+    width: 60px;
+    height: 60px;
+    padding: 10px 10px;
+}
+.right a:hover .phone{
+    opacity: 0.6;
+}
+.right .mess{
+    width: 60px;
+    height: 60px;
+    padding: 10px 10px;
+}
+.right a:hover .mess{
+    opacity: 0.6;
+}
+@media screen and (max-width:576px) {
+    .right{
+        display: none;
+    }
+    .container .h5{
+        display: none;
+    }
+}
+
